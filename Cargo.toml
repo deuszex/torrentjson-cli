@@ -1,0 +1,14 @@
+[package]
+name = "torrentjson-cli"
+version = "0.1.0"
+authors = ["deusz <lovaszoltanr@gmail.com>"]
+
+[dependencies]
+bson = "0.10"
+bip_bencode = "0.4.2"
+serde = "1"
+serde_derive = "1"
+serde_json = "1"
+serde_bencode = "*"
+serde_bytes = "*"
+base64 = "*"
